@@ -4,10 +4,7 @@ _by Kelly Xiong Chen_
 
 ---
 ## Git vs. GitHub
-#### Git
 
-
-#### GitHub
 
 
 ---
