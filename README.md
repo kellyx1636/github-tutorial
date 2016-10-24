@@ -14,9 +14,9 @@ _by Kelly Xiong Chen_
 
 ---
 ## How to set up a GitHub account?
-1) Go to [GitHub](https://github.com/) or go to [Cloud9](c9.io) and click "Sign Up"
+1) Go to [GitHub](https://github.com/) or go to [Cloud9](c9.io) and click "Sign Up".
 
-
+2) Fill in the information that is needed.
 
 ---
 ## Repository Setup
