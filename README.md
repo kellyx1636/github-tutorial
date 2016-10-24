@@ -13,7 +13,7 @@ _by Kelly Xiong Chen_
 
 
 ---
-## Initial Setup
+## How to set up a GitHub account
 
 
 
