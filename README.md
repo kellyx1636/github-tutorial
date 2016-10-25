@@ -26,7 +26,7 @@ _by Kelly Xiong Chen_
 
 3) Verify your email by checking if GitHub sent you an email.
 
-### SSH Keys
+### **SSH Keys**
 
 ---
 ## Repository Setup
