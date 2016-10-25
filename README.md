@@ -55,8 +55,31 @@ _by Kelly Xiong Chen_
 
 ---
 ## Repository Setup
+1) Make sure that your GitHub and Cloud 9 accounts are open in separate tabs.
 
+2) In GitHub, click on the arrow that is next to your profile icon.
 
+3) Make sure that you created a folder, that there are files inside the folder, you are **INSIDE** a file of a folder, and initialized it. 
+* Not sure how to do it? Go to "Workflow & Commands" section of the webpage that you are on right now!
+
+4) Click "New repository"
+
+5) Name your repository the same name of your folder. **SHOULD BE EXACTLY THE SAME**
+* This is where your commit will be "pushed into the cloud".
+
+6) Click "Create Repository"
+
+7) Copy the **SSH** link that appears in your **GitHub** tab and paste it into your file in **Cloud9**.
+
+8) Repeat step 7, but with the links from the section where is says "...or push an existing repository from the command line". 
+* I suggest you do this one at a time to see the difference in each of them.
+* By doing this, Cloud 9 will know where to push your commits.
+* After typing "git push -u origin master" and entering it once, you can just use "git push -u" the next time you commit because Cloud 9 would already knew where to push your commits after the first time.
+
+9) Refresh your GitHub page to see your recent commit(s)
 
 ---
 ## Workflow & Commands
+
+
+
