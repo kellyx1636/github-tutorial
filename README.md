@@ -18,10 +18,11 @@ _by Kelly Xiong Chen_
 * Go to [GitHub](https://github.com/) and click "Sign Up".
 * Go to [Cloud9](https://c9.io/) and click the octocat symbol.
     * [Wondering how an octocat look like? Click here!](https://www.google.com/imgres?imgurl=http%3A%2F%2Fimage.flaticon.com%2Ficons%2Fsvg%2F25%2F25231.svg&imgrefurl=http%3A%2F%2Fwww.flaticon.com%2Ffree-icon%2Fgithub-logo_25231&docid=DUAJHENWuAj-AM&tbnid=ZRPc5QkTPcqMLM%3A&w=438&h=438&bih=794&biw=1600&ved=0ahUKEwihwo341PXPAhWF2T4KHe23C3IQMwg_KAEwAQ&iact=mrc&uact=8)
+    * I suggest you use this method because it connects your GitHub and Cloud9 accounts.
 
 2) Fill in the information that is needed.
 * This includes: creating a username, entering your email address, and securing your account with a strong password.
-
+    * If you went to Cloud9 and signed up your GitHub account, go to the gear icon (in the top-right) and click "Connected Services" to make sure that your Cloud9 account is connected with your GitHub account. 
 
 ---
 ## Repository Setup
