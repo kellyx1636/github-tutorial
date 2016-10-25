@@ -52,6 +52,7 @@ _by Kelly Xiong Chen_
 11) Type "ssh -T git@github.com" and press ENTER. (Side note: The link that you see here should not lead you to another page.)
 
 12) A message should pop up and confirm that you are "successfully authenticated".
+
 ---
 ## Repository Setup
 
