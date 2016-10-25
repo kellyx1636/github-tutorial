@@ -75,7 +75,8 @@ _by Kelly Xiong Chen_
 * I suggest you do this one at a time to see the difference in each of them.
 * By doing this, Cloud 9 will know where to push your commits.
 * After typing "git push -u origin master" and entering it once, you can just use "git push -u" the next time you commit because Cloud 9 would already knew where to push your commits after the first time.
-* **Every time before you push, make sure that you added your changes into the staging area and thencommited them afterwards!**
+* **Every time before you push, make sure that you added your changes into the staging area and then commited them afterwards!**
+
 9) Refresh your GitHub page to see your recent commit(s)
 
 ---
