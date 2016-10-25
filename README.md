@@ -27,7 +27,31 @@ _by Kelly Xiong Chen_
 3) Verify your email by checking if GitHub sent you an email.
 
 ### SSH Keys
+1) Make sure that you are signed into your GitHub account, but also have your Cloud9 account opened in another tab.
 
+2) On the top-right side of the webpage, click on your avatar/icon/profile picture.
+
+3) After, on the left side of the webpage, you will find a list called "Personal settings".
+
+4) In that list, you will find "SSH and GPG keys". When you do, click on it.
+
+5) Name your SSH key, "cloud9". Not your GPG.
+* Since it is case sensitive, that means that "cloud9" should be in **ALL LOWER CASE**
+
+6) Go to your Cloud 9 tab and click the gear icon that is on the top-right of the webpage.
+
+7) In the left side of the webpage, find "SSH Keys" and click it.
+
+8) Copy the long link that is in the darker-colored box. 
+* It should have "ssh-rsa" in the beginning and your email in the end.
+
+9) Go back to your GitHub tab and paste your link.
+
+10) In the same tab, open "github-learning IDE".
+
+11) Type "ssh -T git@github.com" and press ENTER.
+
+12) A message should pop up and confirm that you are "successfully authenticated".
 ---
 ## Repository Setup
 
