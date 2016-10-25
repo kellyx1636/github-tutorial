@@ -75,12 +75,29 @@ _by Kelly Xiong Chen_
 * I suggest you do this one at a time to see the difference in each of them.
 * By doing this, Cloud 9 will know where to push your commits.
 * After typing "git push -u origin master" and entering it once, you can just use "git push -u" the next time you commit because Cloud 9 would already knew where to push your commits after the first time.
-* **Every time before you push, make sure that you added your changes into the staging area and then commited them afterwards!**
+* **Every time before you push, make sure that you added your changes into the staging area and then commited them afterwards! Look at section "Workflow & Commands" (below this section).**
 
 9) Refresh your GitHub page to see your recent commit(s)
 
 ---
 ## Workflow & Commands
-* git init
+* ``` git status ```
+    * This shows the differences of your branches. 
+    * Changes that were added and commited vs. changes that were only added.
 
+* ``` git add ```
+    * This adds your change(s) into the staging area.
+    * I think of the staging area as a "draft" of what changes I might want to save/commit later on.
+
+* ``` git commit ```
+    * This is used to take a "snapshot" of what change(s) you made.
+    * When this is used, you can see your the changes that you added and commited in ``` git log ```.
+
+* ``` git push ```
+    * This uploads your commits into GitHub.
+    * It is useful because it help you secure your changes online.
+
+* ``` git log ``` 
+    * This is used to see what changes have you made so far. It shows you the ones that were inserted and deleted.
+    * This is useful because you can look back at what changes you made and where you possibly messed up.
 
