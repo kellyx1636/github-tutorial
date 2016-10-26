@@ -6,11 +6,11 @@ _by Kelly Xiong Chen_
 ## Git vs. GitHub
 |          Git               |            Both                     |               GitHub             |
 |----------------------------|-------------------------------------|----------------------------------|
-| Can be used offline        | Used for collaborative projects     | Where you push your commits      |
-| Kind of private and public |    Can clone others' projects       | Can fork projects                |
+| Can be used both online and offline        | Used for collaborative projects     | Can only be used online      |
+| Repositories can be private or public |    Can clone others' projects       | Can fork projects                |
 | Where code can be changed  | User can looks at other users' work |  Find SSH or HTTP links          |
 | Need a link to connect your repository (on GitHub) to your local repository |         |Where you can get a pull requests |
-| Where workspaces are made  |                                     | Can only be used online          |    
+| Where workspaces are made  |                                     | Where you push your commits
 
 ---
 ## How to set up a GitHub account?
