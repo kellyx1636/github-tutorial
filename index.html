@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>GitHub Tutorial by kellyx1636</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/kellyx1636/github-tutorial">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>GitHub Tutorial</h1>
+            <h2>Let&#39;s &quot;Git to learning&quot; Git! </h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/kellyx1636/github-tutorial/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/kellyx1636/github-tutorial/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<p><em>by Kelly Xiong Chen</em></p>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<table>
+<thead>
+<tr>
+<th>Git</th>
+<th>Both</th>
+<th>GitHub</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Can be used both online and offline</td>
+<td>Used for collaborative projects</td>
+<td>Can only be used online</td>
+</tr>
+<tr>
+<td>Repositories can be private or public</td>
+<td>Can clone others' projects</td>
+<td>Can fork projects</td>
+</tr>
+<tr>
+<td>Where code can be changed</td>
+<td>User can looks at other users' work</td>
+<td>Find SSH or HTTP links</td>
+</tr>
+<tr>
+<td>Need a link to connect your repository (on GitHub) to your local repository</td>
+<td></td>
+<td>Where you can get a pull requests</td>
+</tr>
+<tr>
+<td>Where workspaces are made</td>
+<td></td>
+<td>Where you push your commits</td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+
+<h2>
+<a id="how-to-set-up-a-github-account" class="anchor" href="#how-to-set-up-a-github-account" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to set up a GitHub account?</h2>
+
+<p>1) There are two ways of signing up and they are the following:</p>
+
+<ul>
+<li>Go to <a href="https://github.com/"><strong>GitHub</strong></a> and click "Sign Up".</li>
+<li>Go to <a href="https://c9.io/"><strong>Cloud9</strong></a> and click the octocat symbol.
+
+<ul>
+<li><a href="https://www.google.com/imgres?imgurl=http%3A%2F%2Fimage.flaticon.com%2Ficons%2Fsvg%2F25%2F25231.svg&amp;imgrefurl=http%3A%2F%2Fwww.flaticon.com%2Ffree-icon%2Fgithub-logo_25231&amp;docid=DUAJHENWuAj-AM&amp;tbnid=ZRPc5QkTPcqMLM%3A&amp;w=438&amp;h=438&amp;bih=794&amp;biw=1600&amp;ved=0ahUKEwihwo341PXPAhWF2T4KHe23C3IQMwg_KAEwAQ&amp;iact=mrc&amp;uact=8">Wondering how an octocat look like? Click here!</a></li>
+<li>I suggest you use this method because it connects your GitHub and Cloud9 accounts.</li>
+</ul>
+</li>
+</ul>
+
+<p>2) Fill in the information that is needed.</p>
+
+<ul>
+<li>This includes: creating a username, entering your email address, and securing your account with a strong password.
+
+<ul>
+<li>If you went to Cloud9 and signed up your GitHub account, go to the gear icon (in the top-right) and click "Connected Services" to make sure that your Cloud9 account is connected with your GitHub account. </li>
+</ul>
+</li>
+</ul>
+
+<p>3) Verify your email by checking if GitHub sent you an email.</p>
+
+<h3>
+<a id="ssh-keys" class="anchor" href="#ssh-keys" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>SSH Keys</h3>
+
+<p>1) Make sure that you are signed into your GitHub account, but also have your Cloud9 account opened in another tab.</p>
+
+<p>2) On the top-right side of the webpage, click on your avatar/icon/profile picture.</p>
+
+<p>3) After, on the left side of the webpage, you will find a list called "Personal settings".</p>
+
+<p>4) In that list, you will find "SSH and GPG keys". When you do, click on it.</p>
+
+<p>5) Name your SSH key, "cloud9". Not your GPG.</p>
+
+<ul>
+<li>Since it is case sensitive, that means that "cloud9" should be in <strong>ALL LOWER CASE</strong>
+</li>
+</ul>
+
+<p>6) Go to your Cloud 9 tab and click the gear icon that is on the top-right of the webpage.</p>
+
+<p>7) In the left side of the webpage, find "SSH Keys" and click it.</p>
+
+<p>8) Copy the long link that is in the darker-colored box. </p>
+
+<ul>
+<li>It should have "ssh-rsa" in the beginning and your email in the end.</li>
+</ul>
+
+<p>9) Go back to your GitHub tab and paste your link.</p>
+
+<p>10) In the same tab, open "github-learning IDE".</p>
+
+<p>11) Type "ssh -T <a href="mailto:git@github.com">git@github.com</a>" and press ENTER. (Side note: The link that you see here should not lead you to another page.)</p>
+
+<p>12) A message should pop up and confirm that you are "successfully authenticated".</p>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<p>1) Make sure that your GitHub and Cloud 9 accounts are open in separate tabs.</p>
+
+<p>2) In GitHub, click on the arrow that is next to your profile icon.</p>
+
+<p>3) Make sure that you created a folder, that there are files inside the folder, you are <strong>INSIDE</strong> a file of a folder, and initialized it. </p>
+
+<ul>
+<li>Not sure how to do it? Go to "Workflow &amp; Commands" section of the webpage that you are on right now!</li>
+</ul>
+
+<p>4) Click "New repository"</p>
+
+<p>5) Name your repository the same name of your folder. <strong>SHOULD BE EXACTLY THE SAME</strong></p>
+
+<ul>
+<li>This is where your commit will be "pushed into the cloud".</li>
+</ul>
+
+<p>6) Click "Create Repository"</p>
+
+<p>7) Copy the <strong>SSH</strong> link that appears in your <strong>GitHub</strong> tab and paste it into your file in <strong>Cloud9</strong>.</p>
+
+<p>8) Repeat step 7, but with the links from the section where is says "...or push an existing repository from the command line". </p>
+
+<ul>
+<li>I suggest you do this one at a time to see the difference in each of them.</li>
+<li>By doing this, Cloud 9 will know where to push your commits.</li>
+<li>After typing "git push -u origin master" and entering it once, you can just use "git push -u" the next time you commit because Cloud 9 would already knew where to push your commits after the first time.</li>
+<li><strong>Every time before you push, make sure that you added your changes into the staging area and then commited them afterwards! Look at section "Workflow &amp; Commands" (below this section).</strong></li>
+</ul>
+
+<p>9) Refresh your GitHub page to see your recent commit(s)</p>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<ul>
+<li>
+<p><code>git status</code></p>
+
+<ul>
+<li>This shows the differences of your branches. </li>
+<li>Changes that were added and commited vs. changes that were only added.</li>
+</ul>
+</li>
+<li>
+<p><code>git add</code></p>
+
+<ul>
+<li>This adds your change(s) into the staging area.</li>
+<li>I think of the staging area as a "draft" of what changes I might want to save/commit later on.</li>
+</ul>
+</li>
+<li>
+<p><code>git commit</code></p>
+
+<ul>
+<li>This is used to take a "snapshot" of what change(s) you made.</li>
+<li>When this is used, you can see your the changes that you added and commited in <code>git log</code>.</li>
+</ul>
+</li>
+<li>
+<p><code>git push</code></p>
+
+<ul>
+<li>This uploads your commits into GitHub.</li>
+<li>It is useful because it help you secure your changes online.</li>
+</ul>
+</li>
+<li>
+<p><code>git log</code> </p>
+
+<ul>
+<li>This is used to see what changes have you made so far. It shows you the ones that were inserted and deleted.</li>
+<li>This is useful because you can look back at what changes you made and where you possibly messed up.</li>
+</ul>
+</li>
+</ul>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/kellyx1636">kellyx1636</a> can be found on <a href="https://github.com/kellyx1636/github-tutorial">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
