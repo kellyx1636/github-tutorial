@@ -101,12 +101,4 @@ _by Kelly Xiong Chen_
     * This is used to see what changes have you made so far. It shows you the ones that were inserted and deleted.
     * This is useful because you can look back at what changes you made and where you possibly messed up.
 
-* `git pull` 
-
-
-
-
-
-
-
 
